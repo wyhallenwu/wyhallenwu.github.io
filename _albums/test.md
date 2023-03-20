@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  test day1
 date: 2015-05-15 21:01:00
 category: test
