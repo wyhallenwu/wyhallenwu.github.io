@@ -331,7 +331,7 @@ log\pi_\theta(a_{it}|s_{it}))(\sum_t^T(r(s_t, a_t))] \\\]
 <blockquote>
   <p>注意：</p>
 
-  <p>第2步中没有取平均，这是因为梯度是指代变化的方向，而变化的步长应该由learning rate来决定，所以在第3步中要乘\alpha ，而不是在第2步中取\frac{1}{N} 步长</p>
+  <p>第2步中没有取平均，这是因为梯度是指代变化的方向，而变化的步长应该由learning rate来决定，所以在第3步中要乘 $\alpha$ ，而不是在第2步中取 $\frac{1}{N}$ 步长</p>
 
   <p>第3步中是+，这是gradient ascent，需要使long-term reward最大，所以每一步应该是增加</p>
 </blockquote>
@@ -352,8 +352,8 @@ log \pi_\theta(a_t|s_t)\sum_t^Tr(s_t, a_t))]\]
 <table>
   <tbody>
     <tr>
-      <td>我们可以观察到 $$\nabla_\theta log\pi_\theta(a_t</td>
-      <td>s_t)$$ 乘上了整个trajectory的从第一步开始的reward之和，但是这就和我们的做出的假设不符合，我们是假设当前time-step不受之前time-step的reward的影响的，所以需要考虑causality。</td>
+      <td>我们可以观察到 $\nabla_\theta log\pi_\theta(a_t</td>
+      <td>s_t)$ 乘上了整个trajectory的从第一步开始的reward之和，但是这就和我们的做出的假设不符合，我们是假设当前time-step不受之前time-step的reward的影响的，所以需要考虑causality。</td>
     </tr>
   </tbody>
 </table>
@@ -410,8 +410,8 @@ log \pi_{\theta'}(a_t | s_t)(\prod_{t=1}^T \frac{\pi_{\theta'}(a_t | s_t)}
 <table>
   <tbody>
     <tr>
-      <td>using cross entropy or squared error to compute $ log \pi_\theta(a_{i,t}</td>
-      <td>s_{i,t}) $</td>
+      <td>using cross entropy or squared error to compute $log \pi_\theta(a_{i,t}</td>
+      <td>s_{i,t})$</td>
     </tr>
   </tbody>
 </table>
@@ -497,16 +497,8 @@ A(s_t, a_t) = r(s_t, a_t) + V(s_{t+1}) - V(s_t)\]
     <li>$\theta \leftarrow \theta + \alpha \nabla_\theta J(\theta)$</li>
   </ol>
 
-  <p>$y_{i,t} \approx r(s_{i,t}, a_{i,t}) + \gamma \hat{V_\phi^\pi(s_{i, t+1})}$ 当 $T\rightarrow \infty$ 时, 使用 $V_\phi^\pi$ 去估计Q (Temporal Difference).</p>
-
-  <table>
-    <tbody>
-      <tr>
-        <td>$\sum_i \nabla_\theta log\pi_\theta(a_i</td>
-        <td>s_i)$ 使用monte carlo近似 softmax_with_cross_entropy(actions, logits)</td>
-      </tr>
-    </tbody>
-  </table>
+  <p>$y_{i,t} \approx r(s_{i,t}, a_{i,t}) + \gamma \hat{V_\phi^\pi(s_{i, t+1})}$ 当 $T\rightarrow \infty$ 时, 使用 $V_\phi^\pi$ 去估计Q (Temporal Difference). <br>
+$\sum_i \nabla_\theta log\pi_\theta(a_i | s_i)$ 使用monte carlo近似 softmax_with_cross_entropy(actions, logits)</p>
 </blockquote>
 
 <h2 id="make-actor-critic-practical">make Actor-Critic practical</h2>
