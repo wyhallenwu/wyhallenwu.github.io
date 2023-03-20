@@ -228,27 +228,84 @@ using default world. Deploy and destroy the vehicles when resetting the world in
 The agent car is always spawning  the agent at the first spawn_point with <code class="language-plaintext highlighter-rouge">sensor.camera.rgb</code> and <code class="language-plaintext highlighter-rouge">sensor.other.collision</code>.</p>
 
 <p><strong>reward and action:</strong><br>
-actions(<code class="language-plaintext highlighter-rouge">utility.py map2action()</code>): <br>
-| action index |                  action                  |<br>
-| :———-: | :————————————–: |<br>
-|      0       | go straight on(vehicle.control(1, 0, 0)) |<br>
-|      1       |   turn left(vehicle.control(1, -1, 0))   |<br>
-|      2       |   turn right(vehicle.control(1, 1, 0))   |<br>
-|      3       |     brake(vehicle.control(0, 0, 1))      |</p>
+actions(<code class="language-plaintext highlighter-rouge">utility.py map2action()</code>):</p>
 
-<p>rewards(<code class="language-plaintext highlighter-rouge">carlaenv.py get_reward()</code>)(A2C):<br>
-| rewards |              event              |<br>
-| :—–: | :—————————–: |<br>
-|  -200   | collision sensor retrieve event |<br>
-|  -100   |       take action 3 brake       |<br>
-|    2    |  take action 0(go straight on)  |<br>
-|    1    |         take action 1,2         |</p>
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">action index</th>
+      <th style="text-align: center">action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">0</td>
+      <td style="text-align: center">go straight on(vehicle.control(1, 0, 0))</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">turn left(vehicle.control(1, -1, 0))</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">turn right(vehicle.control(1, 1, 0))</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">3</td>
+      <td style="text-align: center">brake(vehicle.control(0, 0, 1))</td>
+    </tr>
+  </tbody>
+</table>
 
-<p>reward(<code class="language-plaintext highlighter-rouge">carlaenv.py reward_sac()</code>)(SAC):<br>
-| reward |              event              |<br>
-| :—-: | :—————————–: |<br>
-|  -200  | collision sensor retrieve event |<br>
-|   1    |             others              |</p>
+<p>rewards(<code class="language-plaintext highlighter-rouge">carlaenv.py get_reward()</code>)(A2C):</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">rewards</th>
+      <th style="text-align: center">event</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">-200</td>
+      <td style="text-align: center">collision sensor retrieve event</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">-100</td>
+      <td style="text-align: center">take action 3 brake</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">take action 0(go straight on)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">take action 1,2</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>reward(<code class="language-plaintext highlighter-rouge">carlaenv.py reward_sac()</code>)(SAC):</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">reward</th>
+      <th style="text-align: center">event</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">-200</td>
+      <td style="text-align: center">collision sensor retrieve event</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">others</td>
+    </tr>
+  </tbody>
+</table>
 
 <p><strong>RL algorithms:</strong> <br>
 currently implement A2C and SAC.</p>
