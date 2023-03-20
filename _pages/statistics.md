@@ -49,7 +49,7 @@ nav_order: 8
 <a href="https://wakatime.com"><img src="https://wakatime.com/share/@GreatAllenWu/c559e33f-09cc-4a42-988c-189f4ca4773c.png" /></a>
 
 ## GITHUB commits
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=wyhallenwu&theme=high-contrast)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=wyhallenwu&bg_color=000000&color=949494&line=ffffff&point=ffffff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ---
 
