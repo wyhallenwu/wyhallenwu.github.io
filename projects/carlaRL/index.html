@@ -229,25 +229,25 @@ The agent car is always spawning  the agent at the first spawn_point with <code 
 
 <p><strong>reward and action:</strong><br>
 actions(<code class="language-plaintext highlighter-rouge">utility.py map2action()</code>): <br>
-| action index |                  action                  |
-| :———-: | :————————————–: |
-|      0       | go straight on(vehicle.control(1, 0, 0)) |
-|      1       |   turn left(vehicle.control(1, -1, 0))   |
-|      2       |   turn right(vehicle.control(1, 1, 0))   |
+| action index |                  action                  |<br>
+| :———-: | :————————————–: |<br>
+|      0       | go straight on(vehicle.control(1, 0, 0)) |<br>
+|      1       |   turn left(vehicle.control(1, -1, 0))   |<br>
+|      2       |   turn right(vehicle.control(1, 1, 0))   |<br>
 |      3       |     brake(vehicle.control(0, 0, 1))      |</p>
 
 <p>rewards(<code class="language-plaintext highlighter-rouge">carlaenv.py get_reward()</code>)(A2C):<br>
-| rewards |              event              |
-| :—–: | :—————————–: |
-|  -200   | collision sensor retrieve event |
-|  -100   |       take action 3 brake       |
-|    2    |  take action 0(go straight on)  |
+| rewards |              event              |<br>
+| :—–: | :—————————–: |<br>
+|  -200   | collision sensor retrieve event |<br>
+|  -100   |       take action 3 brake       |<br>
+|    2    |  take action 0(go straight on)  |<br>
 |    1    |         take action 1,2         |</p>
 
 <p>reward(<code class="language-plaintext highlighter-rouge">carlaenv.py reward_sac()</code>)(SAC):<br>
-| reward |              event              |
-| :—-: | :—————————–: |
-|  -200  | collision sensor retrieve event |
+| reward |              event              |<br>
+| :—-: | :—————————–: |<br>
+|  -200  | collision sensor retrieve event |<br>
 |   1    |             others              |</p>
 
 <p><strong>RL algorithms:</strong> <br>
@@ -303,7 +303,7 @@ don’t use reload_world(), it causes some problems(high memory usage and finall
   <li class="task-list-item">
 <input type="checkbox" class="task-list-item-checkbox" disabled checked>add SAC algorithm</li>
   <li class="task-list-item">
-<input type="checkbox" class="task-list-item-checkbox" disabled>refactor code</li>
+<input type="checkbox" class="task-list-item-checkbox" disabled checked>refactor code</li>
 </ul>
 
 <h2 id="notice">notice</h2>

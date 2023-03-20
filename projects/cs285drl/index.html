@@ -472,7 +472,7 @@ A(s_t, a_t) = r(s_t, a_t) + V(s_{t+1}) - V(s_t)\]
       <table>
         <tbody>
           <tr>
-            <td>sample ${ s_i, a_i}$ from $\pi_\theta(a</td>
+            <td>sample $ { s_i, a_i} $ from $\pi_\theta(a</td>
             <td>s)$</td>
           </tr>
         </tbody>
@@ -489,7 +489,7 @@ A(s_t, a_t) = r(s_t, a_t) + V(s_{t+1}) - V(s_t)\]
         <tbody>
           <tr>
             <td>$\nabla_\theta J(\theta) \approx \sum_i \nabla_\theta log\pi_\theta(a_i</td>
-            <td>s_i)\hat{A^\pi(s_i, a_i)}$</td>
+            <td>s_i) \hat{A^\pi(s_i, a_i)}$</td>
           </tr>
         </tbody>
       </table>
@@ -502,8 +502,8 @@ A(s_t, a_t) = r(s_t, a_t) + V(s_{t+1}) - V(s_t)\]
   <table>
     <tbody>
       <tr>
-        <td>$ \sum_i \nabla_\theta log\pi_\theta(a_i</td>
-        <td>s_i) $ 使用monte carlo近似 softmax_with_cross_entropy(actions, logits)</td>
+        <td>$\sum_i \nabla_\theta log\pi_\theta(a_i</td>
+        <td>s_i)$ 使用monte carlo近似 softmax_with_cross_entropy(actions, logits)</td>
       </tr>
     </tbody>
   </table>
