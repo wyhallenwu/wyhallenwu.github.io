@@ -1,35 +1,35 @@
 ---
 layout: page
-title: Album
+title: Albums
 permalink: /albums/
 description: 
 nav: false
-nav_order: 12
+nav_order: 13
 display_categories: [test, ]
 horizontal: false
 ---
 
 <!-- pages/projects.md -->
-<div class="albums">
+<div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}
   <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_albums = site.albums | where: "category", category -%}
-  {%- assign sorted_albums = categorized_albums | sort: "importance" %}
+  {%- assign categorized_projects = site.albums | where: "category", category -%}
+  {%- assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
     <div class="row row-cols-2">
-    {%- for album in sorted_albums -%}
-      {% include albums_horizontal.html %}
+    {%- for project in sorted_projects -%}
+      {% include projects_horizontal.html %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
-    {%- for album in sorted_albums -%}
-      {% include albums.html %}
+    {%- for project in sorted_projects -%}
+      {% include projects.html %}
     {%- endfor %}
   </div>
   {%- endif -%}
@@ -37,20 +37,20 @@ horizontal: false
 
 {%- else -%}
 <!-- Display projects without categories -->
-  {%- assign sorted_albums = site.albums | sort: "importance" -%}
+  {%- assign sorted_projects = site.albums | sort: "importance" -%}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
     <div class="row row-cols-2">
-    {%- for album in sorted_albums -%}
-      {% include albums_horizontal.html %}
+    {%- for project in sorted_projects -%}
+      {% include projects_horizontal.html %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
-    {%- for album in sorted_albums -%}
-      {% include albums.html %}
+    {%- for project in sorted_projects -%}
+      {% include projects.html %}
     {%- endfor %}
   </div>
   {%- endif -%}
