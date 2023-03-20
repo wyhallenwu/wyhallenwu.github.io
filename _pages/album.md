@@ -5,7 +5,7 @@ permalink: /album/
 description: 
 nav: false
 nav_order: 10
-display_categories: [ ]
+display_categories: [test, ]
 horizontal: false
 ---
 
