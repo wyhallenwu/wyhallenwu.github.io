@@ -410,8 +410,8 @@ log \pi_{\theta'}(a_t | s_t)(\prod_{t=1}^T \frac{\pi_{\theta'}(a_t | s_t)}
 <table>
   <tbody>
     <tr>
-      <td>using cross entropy or squared error to compute $log \pi_\theta(a_{i,t}</td>
-      <td>s_{i,t})$</td>
+      <td>using cross entropy or squared error to compute $ log \pi_\theta(a_{i,t}</td>
+      <td>s_{i,t}) $</td>
     </tr>
   </tbody>
 </table>
@@ -457,11 +457,11 @@ A(s_t, a_t) = r(s_t, a_t) + V(s_{t+1}) - V(s_t)\]
 <p>如此我们得到整个training 过程</p>
 
 <blockquote>
-  <p>training data: ${ (s_{i,t}; \sum_{t’=t}^T r(s_{i,t’}, a_{i, t’})}$ 使用的是monte carlo target</p>
+  <p>training data: $ { (s_{i,t}; \sum_{t’=t}^T r(s_{i,t’}, a_{i, t’})} $ 使用的是monte carlo target</p>
 
-  <p>prediction: $\hat{V_\phi^\pi(s_i)}$</p>
+  <p>prediction: $ \hat{V_\phi^\pi(s_i)} $</p>
 
-  <p>ideal target : $r(s_{i,t}, a_{i,t}) + \hat{V_\phi^\pi(s_{i, t+1})}$</p>
+  <p>ideal target : $ r(s_{i,t}, a_{i,t}) + \hat{V_\phi^\pi(s_{i, t+1})} $</p>
 </blockquote>
 
 <h2 id="policy-evaluation-到-online-actor-critic">policy evaluation 到 online Actor-critic</h2>
@@ -472,38 +472,38 @@ A(s_t, a_t) = r(s_t, a_t) + V(s_{t+1}) - V(s_t)\]
       <table>
         <tbody>
           <tr>
-            <td>sample ${ s_i, a_i}$ from $\pi_\theta(a</td>
-            <td>s)$</td>
+            <td>sample ${ s_i, a_i}$ from $ \pi_\theta(a</td>
+            <td>s) $</td>
           </tr>
         </tbody>
       </table>
     </li>
     <li>
-      <p>update $\hat{V_\phi^\pi(s)}$ using target $r + \gamma \hat{V_\phi^\pi(s’)}$</p>
+      <p>update $ \hat{V_\phi^\pi(s)}$ using target $r + \gamma \hat{V_\phi^\pi(s’)} $</p>
     </li>
     <li>
-      <p>evaluate $A(s_t, a_t) = r(s_t, a_t) + \gamma V(s_{t+1}) - V(s_t)$</p>
+      <p>evaluate $ A(s_t, a_t) = r(s_t, a_t) + \gamma V(s_{t+1}) - V(s_t) $</p>
     </li>
     <li>
       <table>
         <tbody>
           <tr>
-            <td>$\nabla_\theta J(\theta) \approx \sum_i \nabla_\theta log\pi_\theta(a_i</td>
-            <td>s_i)\hat{A^\pi(s_i, a_i)}$</td>
+            <td>$ \nabla_\theta J(\theta) \approx \sum_i \nabla_\theta log\pi_\theta(a_i</td>
+            <td>s_i)\hat{A^\pi(s_i, a_i)} $</td>
           </tr>
         </tbody>
       </table>
     </li>
-    <li>$\theta \leftarrow \theta + \alpha \nabla_\theta J(\theta)$</li>
+    <li>$ \theta \leftarrow \theta + \alpha \nabla_\theta J(\theta) $</li>
   </ol>
 
-  <p>$y_{i,t} \approx r(s_{i,t}, a_{i,t}) + \gamma \hat{V_\phi^\pi(s_{i, t+1})}$ 当$T\rightarrow \infty$时, 使用$V_\phi^\pi$去估计Q (Temporal Difference)</p>
+  <p>$ y_{i,t} \approx r(s_{i,t}, a_{i,t}) + \gamma \hat{V_\phi^\pi(s_{i, t+1})} $ 当$ T\rightarrow \infty $时, 使用$ V_\phi^\pi $去估计Q (Temporal Difference)</p>
 
   <table>
     <tbody>
       <tr>
-        <td>$\sum_i \nabla_\theta log\pi_\theta(a_i</td>
-        <td>s_i)$ 使用monte carlo近似 softmax_with_cross_entropy(actions, logits)</td>
+        <td>$ \sum_i \nabla_\theta log\pi_\theta(a_i</td>
+        <td>s_i) $ 使用monte carlo近似 softmax_with_cross_entropy(actions, logits)</td>
       </tr>
     </tbody>
   </table>
@@ -524,7 +524,7 @@ A(s_t, a_t) = r(s_t, a_t) + V(s_{t+1}) - V(s_t)\]
 <p>如果sample到的是old experience, the actions in these transitions were taken by older actors, when you use these older actors to get the action 
 and compute the target values. That’s not will give you the right target value, it will give some other actor not your latest actor.<br>
 所以解决办法是使用Q  <br>
-V我理解为given state s，then follow policy \(\pi\) , Q理解为given state s and take action a then follow policy \(\pi\) <br>
+V我理解为given state s，then follow policy $\pi$ , Q理解为given state s and take action a then follow policy $\pi$   <br>
 计算Q值的时候，使用的action由最新的policy重新generate出来</p>
 <blockquote>
   <p>已经开始引入Q learning的方法</p>
@@ -532,7 +532,7 @@ V我理解为given state s，then follow policy \(\pi\) , Q理解为given state 
 
 <p>(2)<br>
 <img src="/assets/img/src/cs285drl/hw2/off2.png" alt="problem2"><br>
-\(a_i\) is not the action the latest policy will take so using the policy to generate the new action of state \(s_i\) and then compute</p>
+$ a_i $ is not the action the latest policy will take so using the policy to generate the new action of state $s_i$ and then compute</p>
 
 <p>(3) other tricks</p>
 <ol>
