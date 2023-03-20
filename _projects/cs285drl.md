@@ -263,19 +263,19 @@ $$
 
 ## policy evaluation 到 online Actor-critic
 
-> 1. sample $\{ s_i, a_i\}$ from $\pi_\theta(a|s)$
+> 1. sample $ \{ s_i, a_i\} $ from $\pi_\theta(a|s)$
 > 
 > 2. update $\hat{V_\phi^\pi(s)}$ using target $r + \gamma \hat{V_\phi^\pi(s')}$
 > 
 > 3. evaluate $A(s_t, a_t) = r(s_t, a_t) + \gamma V(s_{t+1}) - V(s_t)$
 > 
-> 4. $\nabla_\theta J(\theta) \approx \sum_i \nabla_\theta log\pi_\theta(a_i|s_i)\hat{A^\pi(s_i, a_i)}$
+> 4.  $\nabla_\theta J(\theta) \approx \sum_i \nabla_\theta log\pi_\theta(a_i|s_i) \hat{A^\pi(s_i, a_i)}$ 
 > 
 > 5. $\theta \leftarrow \theta + \alpha \nabla_\theta J(\theta)$
 > 
-> $y_{i,t} \approx r(s_{i,t}, a_{i,t}) + \gamma \hat{V_\phi^\pi(s_{i, t+1})}$ 当 $T\rightarrow \infty$ 时, 使用 $V_\phi^\pi$ 去估计Q (Temporal Difference)
+>  $y_{i,t} \approx r(s_{i,t}, a_{i,t}) + \gamma \hat{V_\phi^\pi(s_{i, t+1})}$ 当 $T\rightarrow \infty$ 时, 使用 $V_\phi^\pi$ 去估计Q (Temporal Difference)
 > 
-> $ \sum_i \nabla_\theta log\pi_\theta(a_i | s_i) $ 使用monte carlo近似 softmax_with_cross_entropy(actions, logits)
+>  $\sum_i \nabla_\theta log\pi_\theta(a_i | s_i)$ 使用monte carlo近似 softmax_with_cross_entropy(actions, logits)
 
 ## make Actor-Critic practical
 **trick 1:** shared network design   

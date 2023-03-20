@@ -50,26 +50,26 @@ The agent car is always spawning  the agent at the first spawn_point with `senso
 
 **reward and action:**  
 actions(`utility.py map2action()`):   
-| action index |                  action                  |
-| :----------: | :--------------------------------------: |
-|      0       | go straight on(vehicle.control(1, 0, 0)) |
-|      1       |   turn left(vehicle.control(1, -1, 0))   |
-|      2       |   turn right(vehicle.control(1, 1, 0))   |
-|      3       |     brake(vehicle.control(0, 0, 1))      |
+| action index |                  action                  |  
+| :----------: | :--------------------------------------: |  
+|      0       | go straight on(vehicle.control(1, 0, 0)) |  
+|      1       |   turn left(vehicle.control(1, -1, 0))   |  
+|      2       |   turn right(vehicle.control(1, 1, 0))   |  
+|      3       |     brake(vehicle.control(0, 0, 1))      |  
 
 rewards(`carlaenv.py get_reward()`)(A2C):  
-| rewards |              event              |
-| :-----: | :-----------------------------: |
-|  -200   | collision sensor retrieve event |
-|  -100   |       take action 3 brake       |
-|    2    |  take action 0(go straight on)  |
-|    1    |         take action 1,2         |
+| rewards |              event              |  
+| :-----: | :-----------------------------: |  
+|  -200   | collision sensor retrieve event |  
+|  -100   |       take action 3 brake       |  
+|    2    |  take action 0(go straight on)  |  
+|    1    |         take action 1,2         |  
 
 reward(`carlaenv.py reward_sac()`)(SAC):  
-| reward |              event              |
-| :----: | :-----------------------------: |
-|  -200  | collision sensor retrieve event |
-|   1    |             others              |
+| reward |              event              |  
+| :----: | :-----------------------------: |  
+|  -200  | collision sensor retrieve event |  
+|   1    |             others              |  
 
 
 **RL algorithms:**   
@@ -98,7 +98,7 @@ currently implement A2C and SAC.
   - [x] pay attention to tensor numpy conversion and detach
   - [x] need test
 - [x] add SAC algorithm
-- [ ] refactor code 
+- [x] refactor code 
 
 
 ## notice
