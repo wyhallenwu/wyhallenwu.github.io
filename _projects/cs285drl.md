@@ -146,7 +146,7 @@ $$
 log \pi_\theta(a_t|s_t)\sum_t^Tr(s_t, a_t))]
 $$
 
-我们可以观察到 $$\nabla_\theta log\pi_\theta(a_t | s_t)$$ 乘上了整个trajectory的从第一步开始的reward之和，但是这就和我们的做出的假设不符合，我们是假设当前time-step不受之前time-step的reward的影响的，所以需要考虑causality。
+我们可以观察到 $\nabla_\theta log\pi_\theta(a_t | s_t)$ 乘上了整个trajectory的从第一步开始的reward之和，但是这就和我们的做出的假设不符合，我们是假设当前time-step不受之前time-step的reward的影响的，所以需要考虑causality。
 
 **solution**
 
@@ -205,7 +205,7 @@ after using Monte Carlo:
 
 ### PG with automatic differentiation
 
-using cross entropy or squared error to compute $ log \pi_\theta(a_{i,t} | s_{i,t}) $
+using cross entropy or squared error to compute $log \pi_\theta(a_{i,t} | s_{i,t})$  
 
 ```python
 # Given:
@@ -273,9 +273,8 @@ $$
 > 
 > 5. $\theta \leftarrow \theta + \alpha \nabla_\theta J(\theta)$
 > 
->  $y_{i,t} \approx r(s_{i,t}, a_{i,t}) + \gamma \hat{V_\phi^\pi(s_{i, t+1})}$ 当 $T\rightarrow \infty$ 时, 使用 $V_\phi^\pi$ 去估计Q (Temporal Difference).
-> 
->  $\sum_i \nabla_\theta log\pi_\theta(a_i | s_i)$ 使用monte carlo近似 softmax_with_cross_entropy(actions, logits)
+$y_{i,t} \approx r(s_{i,t}, a_{i,t}) + \gamma \hat{V_\phi^\pi(s_{i, t+1})}$ 当 $T\rightarrow \infty$ 时, 使用 $V_\phi^\pi$ 去估计Q (Temporal Difference).   
+$\sum_i \nabla_\theta log\pi_\theta(a_i | s_i)$ 使用monte carlo近似 softmax_with_cross_entropy(actions, logits)
 
 ## make Actor-Critic practical
 **trick 1:** shared network design   
