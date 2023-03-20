@@ -5,8 +5,8 @@ nav: true
 nav_order: 6
 dropdown: true
 children: 
-    - title: Repos
-      permalink: /repositories/
+    - title: Stats
+      permalink: /statistics/
     - title: divider
     - title: Links
       permalink: /link/

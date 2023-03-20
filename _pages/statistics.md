@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /repositories/
-title: Repositories
-description: GITHUB
+permalink: /statistics/
+title: Stats
+description: overall statistics
 nav: false
 nav_order: 8
 ---
@@ -42,3 +42,5 @@ nav_order: 8
   {% endfor %}
 </div>
 {% endif %}
+---
+<figure><embed src="https://wakatime.com/share/@GreatAllenWu/74038cfd-868e-4b83-bc15-d9a20c69020d.svg"></embed></figure>
