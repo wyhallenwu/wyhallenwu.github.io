@@ -1,8 +1,10 @@
 ---
-layout: page
-title:  a post with images
+layout: post
+title:  test day1
 date: 2015-05-15 21:01:00
 category: test
+description: test description
+img: /assets/img/12.jpg
 ---
 This is an example post with image galleries.
 
