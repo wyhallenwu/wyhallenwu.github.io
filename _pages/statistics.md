@@ -42,5 +42,12 @@ nav_order: 8
   {% endfor %}
 </div>
 {% endif %}
+
 ---
-<figure><embed src="https://wakatime.com/share/@GreatAllenWu/74038cfd-868e-4b83-bc15-d9a20c69020d.svg"></embed></figure>
+
+.. image:: https://wakatime.com/share/@GreatAllenWu/c559e33f-09cc-4a42-988c-189f4ca4773c.png
+    :target: https://wakatime.com/
+
+---
+
+<a href="https://wakatime.com"><img src="https://wakatime.com/share/@GreatAllenWu/c559e33f-09cc-4a42-988c-189f4ca4773c.png" /></a>

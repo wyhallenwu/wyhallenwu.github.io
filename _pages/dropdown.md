@@ -13,4 +13,7 @@ children:
     - title: divider
     - title: Calendar
       permalink: /calendar/
+    - title: divider
+    - title: Album
+      permalink: /album/
 ---
