@@ -6,7 +6,7 @@
     - name: Date of Birth
       value: 2001
     - name: Languages
-      value: Chinese(native), English, Japanese(equivalent to JLPTn2), Korea(beginner)
+      value: Chinese(native), English, Japanese(equivalent to JLPTn2), Korean(beginner)
 
 - title: Education
   type: time_table

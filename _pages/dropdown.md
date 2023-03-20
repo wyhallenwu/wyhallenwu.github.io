@@ -10,4 +10,7 @@ children:
     - title: divider
     - title: Links
       permalink: /link/
+    - title: divider
+    - title: Calendar
+      permalink: /calendar/
 ---
