@@ -51,10 +51,6 @@ nav_order: 8
 ---
 ## Coding
 
-<a href="https://wakatime.com"><img src="https://wakatime.com/share/@GreatAllenWu/c559e33f-09cc-4a42-988c-189f4ca4773c.png" /></a>
-
----
-
 <figure><embed src="https://wakatime.com/share/@wyhallenwu/8a704862-4b6b-49ba-9e2d-f79d0063b156.svg"></embed></figure>
 
 ---
