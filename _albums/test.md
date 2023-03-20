@@ -2,7 +2,7 @@
 layout: page
 title:  a post with images
 date: 2015-05-15 21:01:00
-categories: test
+category: test
 ---
 This is an example post with image galleries.
 
