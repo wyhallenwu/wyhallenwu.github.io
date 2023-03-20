@@ -1,7 +1,7 @@
 ---
 layout: distill
 title: Carla-RL
-description: final projects 
+description: course final projects 
 # img: 
 importance: 3
 category: course project

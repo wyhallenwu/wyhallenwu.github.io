@@ -146,7 +146,7 @@ $$
 log \pi_\theta(a_t|s_t)\sum_t^Tr(s_t, a_t))]
 $$
 
-我们可以观察到 $\nabla_\theta log\pi_\theta(a_t | s_t)$ 乘上了整个trajectory的从第一步开始的reward之和，但是这就和我们的做出的假设不符合，我们是假设当前time-step不受之前time-step的reward的影响的，所以需要考虑causality。
+我们可以观察到 $$\nabla_\theta log\pi_\theta(a_t | s_t)$$ 乘上了整个trajectory的从第一步开始的reward之和，但是这就和我们的做出的假设不符合，我们是假设当前time-step不受之前time-step的reward的影响的，所以需要考虑causality。
 
 **solution**
 

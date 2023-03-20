@@ -1,35 +1,35 @@
 ---
 layout: page
 title: Album
-permalink: /album/
+permalink: /albums/
 description: 
 nav: false
 nav_order: 12
-display_categories: [test, course project, ]
+display_categories: [test, ]
 horizontal: false
 ---
 
 <!-- pages/projects.md -->
-<div class="album">
+<div class="albums">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}
   <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_projects = site.album | where: "category", category -%}
-  {%- assign sorted_projects = categorized_projects | sort: "importance" %}
+  {%- assign categorized_albums = site.albums | where: "category", category -%}
+  {%- assign sorted_albums = categorized_albums | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
     <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
+    {%- for album in sorted_albums -%}
       {% include projects_horizontal.html %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
-    {%- for project in sorted_projects -%}
-      {% include projects.html %}
+    {%- for album in sorted_albums -%}
+      {% include albums.html %}
     {%- endfor %}
   </div>
   {%- endif -%}
@@ -37,20 +37,20 @@ horizontal: false
 
 {%- else -%}
 <!-- Display projects without categories -->
-  {%- assign sorted_projects = site.album | sort: "importance" -%}
+  {%- assign sorted_albums = site.albums | sort: "importance" -%}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
     <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
+    {%- for album in sorted_albums -%}
       {% include projects_horizontal.html %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
-    {%- for project in sorted_projects -%}
-      {% include projects.html %}
+    {%- for album in sorted_albums -%}
+      {% include albums.html %}
     {%- endfor %}
   </div>
   {%- endif -%}
