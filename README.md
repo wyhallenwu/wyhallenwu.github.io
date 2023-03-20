@@ -92,7 +92,6 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://vdivakar.github.io/" target="_blank">★</a>
 <a href="https://george-gca.github.io/" target="_blank">★</a>
 <a href="https://bashirkazimi.github.io/" target="_blank">★</a>
-<a href="https://dohaison.github.io/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
@@ -598,9 +597,6 @@ If you would like to improve documentation, add your webpage to the list below, 
 For more complex issues/bugs or feature requests, please open an issue using the appropriate template.
 
 ### Maintainers
-
-Our most active contributors are welcome to join the maintainers team.
-If you are interested, please reach out!
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
