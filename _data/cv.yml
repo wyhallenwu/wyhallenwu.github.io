@@ -9,12 +9,14 @@
 - title: Education
   type: time_table
   contents:
-    - title: Bachelor in Cyber Security & Computer Science
-      institution: CES@Shanghai University, China
+    - title: B.Eng in Cyber Security & Computer Science
+      institution: CES@ShangHai University, China
       year: 2019-2023(expected)
       description:
-        - study at School of Computer Engineering and Science, SHU
+        - study at the department of Cyber Security under the School of Computer Engineering and Science, SHU
         - ranked 1st/27 with GPA 3.81/4.0
+        - supervisor:[Prof.Chenhong Cao](https://miaoji7.github.io/ChenHongCao_page/)
+        - research area:deep reinforcement learning for computer network and edge computing
 
 
 - title: Research Experience
