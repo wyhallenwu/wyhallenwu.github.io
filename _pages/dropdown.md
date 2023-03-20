@@ -15,5 +15,5 @@ children:
       permalink: /calendar/
     - title: divider
     - title: Album
-      permalink: /album/
+      permalink: /albums/
 ---
