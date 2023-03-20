@@ -472,32 +472,32 @@ A(s_t, a_t) = r(s_t, a_t) + V(s_{t+1}) - V(s_t)\]
       <table>
         <tbody>
           <tr>
-            <td>sample ${ s_i, a_i}$ from $ \pi_\theta(a</td>
-            <td>s) $</td>
+            <td>sample ${ s_i, a_i}$ from $\pi_\theta(a</td>
+            <td>s)$</td>
           </tr>
         </tbody>
       </table>
     </li>
     <li>
-      <p>update $ \hat{V_\phi^\pi(s)}$ using target $r + \gamma \hat{V_\phi^\pi(s’)} $</p>
+      <p>update $\hat{V_\phi^\pi(s)}$ using target $r + \gamma \hat{V_\phi^\pi(s’)}$</p>
     </li>
     <li>
-      <p>evaluate $ A(s_t, a_t) = r(s_t, a_t) + \gamma V(s_{t+1}) - V(s_t) $</p>
+      <p>evaluate $A(s_t, a_t) = r(s_t, a_t) + \gamma V(s_{t+1}) - V(s_t)$</p>
     </li>
     <li>
       <table>
         <tbody>
           <tr>
-            <td>$ \nabla_\theta J(\theta) \approx \sum_i \nabla_\theta log\pi_\theta(a_i</td>
-            <td>s_i)\hat{A^\pi(s_i, a_i)} $</td>
+            <td>$\nabla_\theta J(\theta) \approx \sum_i \nabla_\theta log\pi_\theta(a_i</td>
+            <td>s_i)\hat{A^\pi(s_i, a_i)}$</td>
           </tr>
         </tbody>
       </table>
     </li>
-    <li>$ \theta \leftarrow \theta + \alpha \nabla_\theta J(\theta) $</li>
+    <li>$\theta \leftarrow \theta + \alpha \nabla_\theta J(\theta)$</li>
   </ol>
 
-  <p>$ y_{i,t} \approx r(s_{i,t}, a_{i,t}) + \gamma \hat{V_\phi^\pi(s_{i, t+1})} $ 当$ T\rightarrow \infty $时, 使用$ V_\phi^\pi $去估计Q (Temporal Difference)</p>
+  <p>$y_{i,t} \approx r(s_{i,t}, a_{i,t}) + \gamma \hat{V_\phi^\pi(s_{i, t+1})}$ 当 $T\rightarrow \infty$ 时, 使用 $V_\phi^\pi$ 去估计Q (Temporal Difference)</p>
 
   <table>
     <tbody>
