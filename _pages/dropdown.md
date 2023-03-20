@@ -16,4 +16,7 @@ children:
     - title: divider
     - title: Album
       permalink: /albums/
+    - title: divider
+    - title: Test
+      permalink: /tests/
 ---
