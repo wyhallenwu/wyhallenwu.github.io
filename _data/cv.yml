@@ -2,9 +2,9 @@
   type: map
   contents:
     - name: Name
-      value: Yuheng 
+      value: Yuheng Wu
     - name: Languages
-      value: Chinese(native), English, Japanese(equivalent to JLPTn2), Korean(beginner)
+      value: Chinese(native), English, Japanese(equivalent to JLPT n2), Korean(beginner)
 
 - title: Education
   type: time_table
@@ -15,8 +15,7 @@
       description:
         - study at the department of Cyber Security under the School of Computer Engineering and Science, SHU
         - ranked 1st/27 with GPA 3.81/4.0
-        - supervisor:[Prof.Chenhong Cao](https://miaoji7.github.io/ChenHongCao_page/)
-        - research area:deep reinforcement learning for computer network and edge computing
+        - research on Computer Network and Edge Computing under the supervision of Prof.Chenhong Cao
 
 
 - title: Research Experience
@@ -58,9 +57,10 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Deep Reinforcement Learing
+    - title: Deep Reinforcement Learing for Real-World systems
       items: 
-        - deep reinforcement learning for system control and optimization
+        - deep reinforcement learning for decision-making and optimization
+        - building systems that work in the real world, even simulation is inaccurate and samples are scarce
 
 
 # - title: Other Interests
