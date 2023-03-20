@@ -7,6 +7,11 @@ nav: false
 nav_order: 8
 ---
 
+## Date
+[![Moon.svg](https://dday-widget.minung.dev/widget?text=Days%20Left&date=2023-12-31&startDate=2023-01-01&theme=theme2)](https://dday-widget.minung.dev)
+
+---
+
 ## GitHub users
 
 {% if site.data.repositories.github_users %}
@@ -18,7 +23,7 @@ nav_order: 8
 
 ---
 
-{% if site.repo_trophies.enabled %}
+<!-- {% if site.repo_trophies.enabled %}
 {% for user in site.data.repositories.github_users %}
   {% if site.data.repositories.github_users.size > 1 %}
   <h4>{{ user }}</h4>
@@ -27,7 +32,7 @@ nav_order: 8
   {% include repository/repo_trophies.html username=user %}
   </div>
 
-  ---
+--- -->
 
 {% endfor %}
 {% endif %}
@@ -48,8 +53,15 @@ nav_order: 8
 
 <a href="https://wakatime.com"><img src="https://wakatime.com/share/@GreatAllenWu/c559e33f-09cc-4a42-988c-189f4ca4773c.png" /></a>
 
-## GITHUB commits
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=wyhallenwu&bg_color=000000&color=949494&line=ffffff&point=ffffff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+---
+
+<figure><embed src="https://wakatime.com/share/@wyhallenwu/8a704862-4b6b-49ba-9e2d-f79d0063b156.svg"></embed></figure>
+
+---
+
+## LeetCode
+
+[![Leetcode Stats](https://leetcard.jacoblin.cool/yuhengwu?site=cn&theme=unicorn&border=0&radius=20&ext=heatmap)](https://leetcode.cn/u/yuhengwu/)
 
 ---
 
