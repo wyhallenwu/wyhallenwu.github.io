@@ -1,10 +1,8 @@
 - title: General Information
   type: map
   contents:
-    - name: Yuheng Wu
-      value: Yuheng
-    - name: Date of Birth
-      value: 2001
+    - name: Name
+      value: Yuheng 
     - name: Languages
       value: Chinese(native), English, Japanese(equivalent to JLPTn2), Korean(beginner)
 
@@ -12,7 +10,7 @@
   type: time_table
   contents:
     - title: Bachelor in Cyber Security & Computer Science
-      institution: Shanghai University, China
+      institution: CES@Shanghai University, China
       year: 2019-2023(expected)
       description:
         - study at School of Computer Engineering and Science, SHU
