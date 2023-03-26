@@ -13,8 +13,11 @@ nav_order: 7
 [github](https://github.com/)   
 
 # Docs
-## Env
-[linux command search](https://wangchujiang.com/linux-command/)  
+## Papers
+[paperwithcode](https://paperswithcode.com/)    
+[connected papers](https://www.connectedpapers.com/)   
+[arxiv](https://arxiv.org/)   
+[google scholar](https://scholar.google.com/)   
 ## DL
 [pytorch doc](https://pytorch.org/docs/stable/index.html)  
 [tensorflow doc](https://www.tensorflow.org/api_docs/python/tf)   
@@ -22,11 +25,12 @@ nav_order: 7
 [sklearn](https://scikit-learn.org/0.21/documentation.html)   
 [seaborn](https://seaborn.pydata.org/api.html)    
 [matplotlib](https://matplotlib.org/stable/api/index.html)    
-## RL
 [tianshou](https://tianshou.readthedocs.io/en/master/)   
 [gymnasium](https://gymnasium.farama.org/)   
+## Other
+[linux command search](https://wangchujiang.com/linux-command/)  
 
-# Methods
+# Methods & inspiration
 [how to read a paper by `Li Mu`](https://www.bilibili.com/video/BV1H44y1t75x/?spm_id_from=333.999.0.0)
 
 # RL Learning Materials
