@@ -10,6 +10,7 @@ nav_order: 7
 # self
 [notion](https://www.notion.so/wuyuheng/Papers-45c1ddd6fa3842ea8cc348e1626837a2)   
 [overleaf](https://www.overleaf.com/project)   
+[github](https://github.com/)   
 
 # Docs
 ## Env
@@ -28,8 +29,9 @@ nav_order: 7
 # Methods
 [how to read a paper by `Li Mu`](https://www.bilibili.com/video/BV1H44y1t75x/?spm_id_from=333.999.0.0)
 
-# RL
+# RL Learning Materials
 [easy RL](https://datawhalechina.github.io/easy-rl/#/chapter1/chapter1)  
 [reinforcement learning(Sutton 2edition)](http://incompleteideas.net/book/RLbook2020.pdf)  
 [cs285 deep reinforcement learning](http://rail.eecs.berkeley.edu/deeprlcourse/resources/)  
 [deepmind RL series 2021](https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021)  
+[deep RL bootcamp(UCB)](https://sites.google.com/view/deep-rl-bootcamp/lectures)  
