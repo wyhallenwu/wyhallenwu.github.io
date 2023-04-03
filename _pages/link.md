@@ -10,15 +10,15 @@ nav_order: 7
 # self
 [notion](https://www.notion.so/wuyuheng/Papers-45c1ddd6fa3842ea8cc348e1626837a2)   
 [overleaf](https://www.overleaf.com/project)   
-[github](https://github.com/)   
+[github](https://github.com/)  
+[typst](https://typst.app/)    
 
-# Docs
-## Papers
+# Papers
 [paperwithcode](https://paperswithcode.com/)    
 [connected papers](https://www.connectedpapers.com/)   
 [arxiv](https://arxiv.org/)   
 [google scholar](https://scholar.google.com/)   
-## DL
+# DL
 [pytorch doc](https://pytorch.org/docs/stable/index.html)  
 [tensorflow doc](https://www.tensorflow.org/api_docs/python/tf)   
 [numpy](https://numpy.org/doc/stable/index.html)   
@@ -27,7 +27,7 @@ nav_order: 7
 [matplotlib](https://matplotlib.org/stable/api/index.html)    
 [tianshou](https://tianshou.readthedocs.io/en/master/)   
 [gymnasium](https://gymnasium.farama.org/)   
-## Other
+# System
 [linux command search](https://wangchujiang.com/linux-command/)  
 
 # Methods & inspiration
@@ -39,3 +39,6 @@ nav_order: 7
 [cs285 deep reinforcement learning](http://rail.eecs.berkeley.edu/deeprlcourse/resources/)  
 [deepmind RL series 2021](https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021)  
 [deep RL bootcamp(UCB)](https://sites.google.com/view/deep-rl-bootcamp/lectures)  
+
+# fun
+[qwerty learner](https://qwerty.kaiyi.cool/)  
