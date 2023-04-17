@@ -1,6 +1,6 @@
 ---
 layout: page
-title: wukangroad
+title: wukang road
 date: 2023-04-16
 img: assets/img/album/20230416-wukangroad1.jpg
 category: shanghai
@@ -17,5 +17,5 @@ category: shanghai
     </div>
 </div>
 <div class="caption">
-    wukang road. shoot on 20230416.
+    wukang road. shot on 20230416.
 </div>
