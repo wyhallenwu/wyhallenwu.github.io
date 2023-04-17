@@ -5,7 +5,7 @@ permalink: /albums/
 description: 
 nav: false
 nav_order: 13
-display_categories: [test, ]
+display_categories: [shanghai, ]
 horizontal: false
 ---
 
