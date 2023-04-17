@@ -19,5 +19,3 @@ category: shanghai
 <div class="caption">
     wukang road. shoot on 2023046.
 </div>
-
-{% endraw %}
