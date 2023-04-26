@@ -1,6 +1,6 @@
 ---
 layout: page
-title: wukang road
+title: 武康路打卡
 date: 2023-04-16
 img: assets/img/album/20230416-wukangroad1.jpg
 category: shanghai
@@ -17,5 +17,5 @@ category: shanghai
     </div>
 </div>
 <div class="caption">
-    wukang road. shot on 20230416.
+    武康路. shot on 20230416.
 </div>

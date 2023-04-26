@@ -40,5 +40,7 @@ nav_order: 7
 [deepmind RL series 2021](https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021)  
 [deep RL bootcamp(UCB)](https://sites.google.com/view/deep-rl-bootcamp/lectures)  
 
+# academic writing
+[translation reverso](https://context.reverso.net/translation/chinese-english/)
 # fun
 [qwerty learner](https://qwerty.kaiyi.cool/)  
