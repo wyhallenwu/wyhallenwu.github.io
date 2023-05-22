@@ -12,6 +12,7 @@ nav_order: 7
 [overleaf](https://www.overleaf.com/project)   
 [github](https://github.com/)  
 [typst](https://typst.app/)    
+[chatgpt](https://chat.openai.com/)    
 
 # Papers
 [paperwithcode](https://paperswithcode.com/)    
