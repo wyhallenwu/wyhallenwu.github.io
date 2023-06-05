@@ -45,3 +45,11 @@ nav_order: 7
 [translation reverso](https://context.reverso.net/translation/chinese-english/)
 # fun
 [qwerty learner](https://qwerty.kaiyi.cool/)  
+
+# web dev
+[react](https://react.dev/reference/react)   
+[react router](https://reactrouter.com/en/main)  
+[postman](https://www.postman.com/)  
+[redux](https://redux.js.org/api/api-reference)    
+[immutable.js](https://immutable-js.com/docs/v4.3.0)    
+[antdesign UI](https://ant.design/components/overview-cn)   
