@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Undergraduate@<a href='https://www.shu.edu.cn/'>CES, ShangHai University</a>
+subtitle: Master Student@<a href='https://www.kaist.ac.kr/en/'>KAIST</a>
 
 profile:
   align: right
