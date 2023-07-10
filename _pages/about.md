@@ -23,7 +23,7 @@ social: true  # includes social icons at the bottom of the page
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
-I'm currently a fourth-year undergraduate student at Shanghai University, majoring in Cyber Security and Computer Science under the supervision of [Prof.Chenhong Cao](https://miaoji7.github.io/ChenHongCao_page/). My interests lie broadly at incorporating deep learning algorithms with real-world systems to drastically improve the performance. Recently, I'm looking for a Master or MS/Phd integrated program. If you are interested, please contact me!
+I'm currently a fisrt-year master student at KAIST(Korea Advanced Institute of Science and Technology). I received my B.Eng in Cyber Security and Computer Science under the supervision of [Prof.Chenhong Cao](https://miaoji7.github.io/ChenHongCao_page/) from Shanghai University. My interests lie broadly at incorporating deep reinforcement learning into real-world decision-makings.
 
 ### To Decrypt the Photo
 the photo is encrypted by AES-ECB mode with the key `yuhengwuyuhengwu` and block size 16

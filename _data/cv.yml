@@ -9,12 +9,15 @@
 - title: Education
   type: time_table
   contents:
+    - title: Master student
+      institution: KAIST
+      year: 2023-2025(expected)
     - title: B.Eng in Cyber Security & Computer Science
       institution: CES@ShangHai University, China
-      year: 2019-2023(expected)
+      year: 2019-2023
       description:
         - study at the department of Cyber Security under the School of Computer Engineering and Science, SHU
-        - ranked 1st/27 with GPA 3.81/4.0
+        - ranked 1st/27 with GPA 3.83/4.0(94.3/100)
         - research on Computer Network and Edge Computing under the supervision of Prof.Chenhong Cao
 
 
