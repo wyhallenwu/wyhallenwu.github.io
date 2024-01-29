@@ -4,12 +4,9 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I'm currently pursuing my master's degree at the [Collaborative Distributed Systems and Networks Lab](http://cds.kaist.ac.kr/cdsn/) within KAIST School of Computing, under the supervision of Prof.Dongman Lee. Prior to that, I received my B.Eng degree in Cyberspace Security from the School of Computer Science and Engineering at Shanghai University where I was fortunately mentored by Prof.Chenhong Cao.
 
-## Research Interests
-
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+My research interests lie broadly in the AI for networked systems, including optimizing network resource allocation under both 5G/6G and datacenter networking.
 
 ## News
 
