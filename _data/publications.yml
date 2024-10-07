@@ -1,7 +1,7 @@
 main:
 
   - title: "Undisclosed Paper for Anonymous Review"
-    authors: <strong>Yuheng Wu</strong>, Thanh-Tung Nguyen, ucas Liebe, Nhat-Quang Tau, Jinghan Cheng, Dongman Lee
+    authors: <strong>Yuheng Wu</strong>, Thanh-Tung Nguyen, Lucas Liebe, Nhat-Quang Tau, Jinghan Cheng, Dongman Lee
     conference_short: MMSys
     conference: ACM Multimedia Systems Conference <strong>(MMSys)</strong>, 2025.
     # pdf: https://arxiv.org/pdf/2306.00988.pdf
