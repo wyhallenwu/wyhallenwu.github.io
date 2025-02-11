@@ -10,13 +10,8 @@ main:
     image: ./assets/img/tobeupdated.png
     notes: Under Review
 
-  - title: "Undisclosed Paper for Anonymous Review"
-    # authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
+  - title: "OCTOPINF: Workload-Aware Inference Serving for Edge Video Analytics"
     conference_short: Percom
     conference: International Conference on Pervasive Computing and Communications <strong>(Percom)</strong>, 2025.
-    # pdf: https://arxiv.org/pdf/2002.10211.pdf
-    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Under Review
-    image: ./assets/img/tobeupdated.png
+    code: https://github.com/tungngreen/PipelineScheduler
+    image: ./assets/img/octopinf.png
