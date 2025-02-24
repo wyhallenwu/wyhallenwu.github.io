@@ -2,8 +2,8 @@ main:
 
   - title: "Undisclosed Paper for Anonymous Review"
     authors: <strong>Yuheng Wu</strong>, Thanh-Tung Nguyen, Lucas Liebe, Nhat-Quang Tau, Jinghan Cheng, Dongman Lee
-    conference_short: MMSys
-    conference: ACM Multimedia Systems Conference <strong>(MMSys)</strong>, 2025.
+    conference_short: ICME
+    conference: IEEE International Conference on Multimedia & Expo <strong>(ICME)</strong>, 2025.
     # pdf: https://arxiv.org/pdf/2306.00988.pdf
     # code: https://github.com/MrGiovanni/ContinualLearning
     # bibtex: https://bib.yliu.me/MICCAI23.txt
@@ -11,6 +11,7 @@ main:
     notes: Under Review
 
   - title: "OCTOPINF: Workload-Aware Inference Serving for Edge Video Analytics"
+    authors: Thanh-Tung Nguyen, Lucas Liebe, Nhat-Quang Tau, <strong>Yuheng Wu</strong>, Jinghan Cheng, Dongman Lee
     conference_short: Percom
     conference: International Conference on Pervasive Computing and Communications <strong>(Percom)</strong>, 2025.
     code: https://github.com/tungngreen/PipelineScheduler
