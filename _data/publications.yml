@@ -1,14 +1,21 @@
 main:
 
   - title: "Undisclosed Paper for Anonymous Review"
-    authors: <strong>Yuheng Wu</strong>, Thanh-Tung Nguyen, Lucas Liebe, Nhat-Quang Tau, Jinghan Cheng, Dongman Lee
-    conference_short: ICME
-    conference: IEEE International Conference on Multimedia & Expo <strong>(ICME)</strong>, 2025.
+    authors: <strong>Yuheng Wu</strong>, Thanh-Tung Nguyen, Lucas Liebe, Nhat-Quang Tau, Pablo Espinosa Campos, Jinghan Cheng, Dongman Lee
+    conference_short: MM
+    conference: ACM International Conference on Multimedia <strong>(MM)</strong>, 2025.
     # pdf: https://arxiv.org/pdf/2306.00988.pdf
     # code: https://github.com/MrGiovanni/ContinualLearning
     # bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/tobeupdated.png
     notes: Under Review
+  - title: "LangCoop: Collaborative Driving with Language"
+    authors: Xiangbo Gao, <strong>Yuheng Wu</strong>, Rujia Wang, Chenxi Liu, Yang Zhou, Zhengzhong Tu
+    conference_short: CVPR workshop
+    conference: CVPR 2nd Workshop on Multi-Agent Embodied Intelligent Systems <strong>(CVPR workshop)</strong>, 2025
+    image: ./assets/img/langcoop.png
+    code: https://github.com/taco-group/LangCoop
+    page: https://langcoop.netlify.app/
 
   - title: "OCTOPINF: Workload-Aware Inference Serving for Edge Video Analytics"
     authors: Thanh-Tung Nguyen, Lucas Liebe, Nhat-Quang Tau, <strong>Yuheng Wu</strong>, Jinghan Cheng, Dongman Lee
