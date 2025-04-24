@@ -14,6 +14,7 @@ main:
     conference_short: CVPR workshop
     conference: CVPR 2nd Workshop on Multi-Agent Embodied Intelligent Systems <strong>(CVPR workshop)</strong>, 2025
     image: ./assets/img/langcoop.png
+    pdf: https://www.arxiv.org/pdf/2504.13406
     code: https://github.com/taco-group/LangCoop
     page: https://langcoop.netlify.app/
 
@@ -21,5 +22,6 @@ main:
     authors: Thanh-Tung Nguyen, Lucas Liebe, Nhat-Quang Tau, <strong>Yuheng Wu</strong>, Jinghan Cheng, Dongman Lee
     conference_short: Percom
     conference: International Conference on Pervasive Computing and Communications <strong>(Percom)</strong>, 2025.
+    pdf: https://arxiv.org/pdf/2502.01277 
     code: https://github.com/tungngreen/PipelineScheduler
     image: ./assets/img/octopinf.png
