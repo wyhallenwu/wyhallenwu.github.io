@@ -26,7 +26,12 @@ module Jekyll
 
       def file_content
         local_file_name = file_name.slice((file_name.index('assets/')..-1))
-        File.read(local_file_name)
+        if File.exist?(local_file_name)
+          File.read(local_file_name)
+        else
+          # If file doesn't exist, use the filename as the content
+          local_file_name
+        end
       end
 
       def file_contents
