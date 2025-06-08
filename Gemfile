@@ -34,6 +34,6 @@ group :other_plugins do
     gem 'ostruct'        # used by jekyll-twitter-plugin
     gem 'faraday-retry'  # required for jekyll-scholar with Faraday v2.0+
     gem 'terser'         # used by jekyll-terser
-    gem 'unicode_utils' -- should be already installed by jekyll
-    gem 'webrick' -- should be already installed by jekyll
+    # gem 'unicode_utils' # should be already installed by jekyll
+    # gem 'webrick'       # should be already installed by jekyll
 end
