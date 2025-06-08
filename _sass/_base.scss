@@ -1026,7 +1026,7 @@ html.transition *:after {
   .post-header {
     .desc {
       font-size: 1.2rem;
-      font-family: "Roboto";
+      font-family: "Lato";
       font-weight: 400;
       margin-bottom: 2rem;
     }
@@ -1551,5 +1551,25 @@ figure.cover {
   /* mouse over link */
   a.cover-link:hover {
     color: #23212d !important;
+  }
+}
+
+.news {
+  .table {
+    th {
+      color: var(--global-text-color);
+    }
+    td {
+      color: var(--global-text-color);
+    }
+    .news-title {
+      color: var(--global-text-color);
+      text-decoration: none;
+      
+      &:hover {
+        color: var(--global-theme-color);
+        text-decoration: underline;
+      }
+    }
   }
 }
