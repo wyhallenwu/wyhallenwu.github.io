@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'github-pages', group: :jekyll_plugins
-gem 'jekyll'
+# Remove github-pages as it's causing conflicts
+# gem 'github-pages', group: :jekyll_plugins
+gem 'jekyll', '~> 4.3.0'
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do
@@ -15,7 +16,7 @@ group :jekyll_plugins do
     gem 'jekyll-minifier'
     gem 'jekyll-paginate-v2'
     gem 'jekyll-regex-replace'
-    gem 'jekyll-scholar'
+    gem 'jekyll-scholar', '~> 6.0'
     gem 'jekyll-sitemap'
     gem 'jekyll-tabs'
     gem 'jekyll-terser', :git => "https://github.com/RobertoJBeltran/jekyll-terser.git"
@@ -34,7 +35,7 @@ group :other_plugins do
     gem 'observer'       # used by jekyll-scholar
     gem 'ostruct'        # used by jekyll-twitter-plugin
     gem 'faraday-retry'  # required for jekyll-scholar with Faraday v2.0+
-    gem 'terser'         # used by jekyll-terser
-    gem 'unicode_utils' -- should be already installed by jekyll
-    gem 'webrick' -- should be already installed by jekyll
+    # gem 'terser'         # used by jekyll-terser
+    # gem 'unicode_utils' -- should be already installed by jekyll
+    gem 'webrick'        # required for proper file operations
 end
