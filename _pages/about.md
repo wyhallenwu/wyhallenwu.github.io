@@ -23,7 +23,6 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
 
-
 I’m a first-year PhD student in the School of Computing, Korea Advanced Institute of Science & Technology. I’m working with my colleagues at the Collaborative Distributed Systems and Networks Lab, under the supervision of [Prof.Dongman Lee](https://cds.kaist.ac.kr/people/dongmanlee/). Prior to that, I received my B.Eng degree in Cyberspace Security from the School of Computer Science and Engineering at Shanghai University where I was fortunately mentored by [Prof.Chenhong Cao](https://splendid-allspice-97f.notion.site/cedd05637f2a4509a84f12f2f7c9ee5c).
 
 My research interest lies broadly in topics of building high-performance (scalable & cost-effective) multi-agent systems. Currently, my current focus is on multi-agent collaborative embodied intelligent system.

@@ -13,6 +13,7 @@ PipelineScheduler is a system which enables the highest performance in terms of 
 _Code is available at_: https://github.com/tungngreen/PipelineScheduler
 
 If you find it useful, cite our paper:
+
 ```
 @inproceedings{nguyen2025,
     author={Thanh-Tung Nguyen and Lucas Liebe and Tau-Nhat Quang and Yuheng Wu and Jinghan Cheng and Dongman Lee}

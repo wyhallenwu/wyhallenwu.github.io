@@ -221,21 +221,21 @@ ul.task-list input[type="checkbox"] {
     p {
       display: inline-block;
       margin: 0;
-      font-family: 'Lato';
-      
+      font-family: "Lato";
+
       a {
         color: var(--global-text-color);
         text-decoration: none;
         padding: 0.5rem;
         border-radius: 50%;
         transition: all 0.2s ease;
-        
+
         &:hover {
           color: var(--global-theme-color);
           background-color: var(--global-bg-color);
           transform: translateY(-2px);
         }
-        
+
         i {
           font-size: 1.2rem;
         }
@@ -287,13 +287,13 @@ ul.task-list input[type="checkbox"] {
   opacity: 0.95;
 
   .navbar-brand {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-weight: 900;
     font-size: 1.5rem;
   }
 
   .nav-link {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-weight: 700;
     font-size: 1.1rem;
   }
@@ -747,7 +747,7 @@ footer.sticky-bottom {
   }
 
   h2 {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-weight: 700;
     font-size: 2rem;
     margin-top: 2rem;
@@ -761,16 +761,16 @@ footer.sticky-bottom {
       height: 120px; // Reduced height for content
       overflow-y: auto;
     }
-    
+
     .card-title {
-      font-family: 'Lato';
+      font-family: "Lato";
       font-weight: 700;
       font-size: 2.3rem;
       margin-bottom: 0.25rem; // Reduced margin
     }
-    
+
     .card-text {
-      font-family: 'Lato';
+      font-family: "Lato";
       font-size: 1.2rem;
       line-height: 1;
       margin-bottom: 0; // Remove bottom margin
@@ -844,12 +844,12 @@ footer.sticky-bottom {
 
       .title {
         font-weight: 700;
-        font-family: 'Lato';
+        font-family: "Lato";
         font-size: 1.1rem;
       }
 
       .author {
-        font-family: 'Roboto';
+        font-family: "Roboto";
         font-style: italic;
         font-weight: 400;
         a {
@@ -1026,7 +1026,7 @@ html.transition *:after {
   .post-header {
     .desc {
       font-size: 1.2rem;
-      font-family: 'Roboto';
+      font-family: "Roboto";
       font-weight: 400;
       margin-bottom: 2rem;
     }
@@ -1038,14 +1038,14 @@ html.transition *:after {
       font-size: 1.1rem;
       line-height: 1.6;
       margin-bottom: 1.2rem;
-      font-family: 'Lato';
+      font-family: "Lato";
       font-weight: 400;
     }
 
     a {
       color: var(--global-theme-color);
       text-decoration: none;
-      
+
       &:hover {
         text-decoration: underline;
       }
@@ -1053,12 +1053,12 @@ html.transition *:after {
   }
 
   h2 {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-weight: 700;
     font-size: 2rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    
+
     a {
       text-decoration: none;
       &:hover {
@@ -1066,7 +1066,6 @@ html.transition *:after {
       }
     }
   }
-
 }
 
 progress {

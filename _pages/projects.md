@@ -2,7 +2,7 @@
 layout: page
 title: PROJECTS
 permalink: /projects/
-description: 
+description:
 nav: true
 nav_order: 3
 display_categories: [Collaborative Emboddied Agents, Edge Video Analytics Systems]
