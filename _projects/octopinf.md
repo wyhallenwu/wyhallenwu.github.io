@@ -3,7 +3,7 @@ layout: page
 title: "OCTOPINF"
 description: Percom, 2024
 img: assets/img/paper/octopinf.png
-importance: 1
+importance: 2
 category: ["Edge Video Analytics Systems"]
 related_publications: false
 ---
