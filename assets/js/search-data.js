@@ -29,7 +29,12 @@ ninja.data = [{
           section: "News",},{id: "news-my-first-author-paper-how2compress-scalable-and-efficient-edge-video-analytics-via-adaptive-granular-video-compression-has-been-accepted-by-acm-mm2025",
           title: 'My first author paper “How2Compress: Scalable and Efficient Edge Video Analytics via Adaptive...',
           description: "",
-          section: "News",},{id: "projects-langcoop",
+          section: "News",},{id: "projects-how2compress",
+          title: 'How2Compress',
+          description: "MM 2025",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/how2compress.html";
+            },},{id: "projects-langcoop",
           title: 'Langcoop',
           description: "CVPR Workshop, 2025",
           section: "Projects",handler: () => {
