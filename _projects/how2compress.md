@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "How2Compress"
-description: MM 2025
+description: MM, 2025
 img: assets/img/paper/how2compress.png
 importance: 1
 category: ["Edge Video Analytics Systems"]
