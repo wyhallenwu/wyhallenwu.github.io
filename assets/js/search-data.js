@@ -31,7 +31,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-how2compress",
           title: 'How2Compress',
-          description: "MM 2025",
+          description: "MM, 2025",
           section: "Projects",handler: () => {
               window.location.href = "/projects/how2compress.html";
             },},{id: "projects-langcoop",
