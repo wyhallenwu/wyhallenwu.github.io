@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "PROJECTS",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
         },{id: "news-langcoop-is-accepted-by-cvpr-2nd-workshop-on-multi-agent-embodied-intelligent-systems-2025-thanks-xiangbo-and-all-collaborators-check-our-paper-and-code",
           title: 'Langcoop is accepted by CVPR 2nd Workshop on Multi-Agent Embodied Intelligent Systems 2025....',
           description: "",
