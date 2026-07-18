@@ -1,0 +1,29 @@
+<section class="about-section about-education" aria-labelledby="education-title">
+  <h2 id="education-title" class="about-section__title">Education</h2>
+  <div class="about-education__list">
+    {% for item in page.education %}
+      {% for degree in item.degrees %}
+        <div class="about-entry">
+          <a
+            class="about-entry__media"
+            href="{{ item.institution_url }}"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit {{ item.institution }} website"
+          >
+            <img src="{{ item.logo | relative_url }}" alt="{{ item.institution }} logo" loading="lazy">
+          </a>
+          <div class="about-entry__content">
+            <div class="about-entry__heading">
+              <h3 class="about-entry__title">
+                <a href="{{ item.institution_url }}" target="_blank" rel="noopener noreferrer">{{ item.institution_full }}</a>
+              </h3>
+              <span class="about-entry__period">{{ degree.period }}</span>
+            </div>
+            <p class="about-entry__description">{{ degree.degree }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    {% endfor %}
+  </div>
+</section>

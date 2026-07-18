@@ -1,0 +1,16 @@
+<nav class="about-profile-links" aria-label="Profile links">
+  {% for link in page.profile_links %}
+    {% assign profile_link_url = link.url %}
+    {% unless link.url contains '://' or link.url contains 'mailto:' %}
+      {% assign profile_link_url = link.url | relative_url %}
+    {% endunless %}
+    <a
+      href="{{ profile_link_url }}"
+      {% if link.url contains '://' %}
+        target="_blank" rel="noopener noreferrer"
+      {% endif %}
+    >
+      {{- link.label -}}
+    </a>
+  {% endfor %}
+</nav>
