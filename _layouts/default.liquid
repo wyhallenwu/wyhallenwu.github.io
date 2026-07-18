@@ -16,7 +16,14 @@
   </head>
 
   <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  {% assign body_classes = page.body_class | default: '' %}
+  {% if site.navbar_fixed %}
+    {% assign body_classes = body_classes | append: ' fixed-top-nav' %}
+  {% endif %}
+  {% unless site.footer_fixed %}
+    {% assign body_classes = body_classes | append: ' sticky-bottom-footer' %}
+  {% endunless %}
+  <body class="{{ body_classes | strip }}">
     <!-- Header -->
     {% include header.liquid %}
 

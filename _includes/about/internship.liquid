@@ -1,0 +1,23 @@
+<section class="about-section about-internship" aria-labelledby="internship-title">
+  <h2 id="internship-title" class="about-section__title">Internship</h2>
+  <div class="about-entry">
+    <a
+      class="about-entry__media"
+      href="{{ page.internship.company_url }}"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Visit {{ page.internship.company }} website"
+    >
+      <img src="{{ page.internship.logo | relative_url }}" alt="{{ page.internship.company }} logo" loading="lazy">
+    </a>
+    <div class="about-entry__content">
+      <div class="about-entry__heading">
+        <h3 class="about-entry__title">
+          <a href="{{ page.internship.company_url }}" target="_blank" rel="noopener noreferrer">{{ page.internship.company }}</a>
+        </h3>
+        <span class="about-entry__period">{{ page.internship.period }}</span>
+      </div>
+      <p class="about-entry__description">{{ page.internship.description }}</p>
+    </div>
+  </div>
+</section>

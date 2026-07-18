@@ -2,19 +2,13 @@
 layout: page
 permalink: /publications/
 title: PUBLICATIONS
-description:
 nav: true
 nav_order: 2
+body_class: academic-page publications-page
 ---
-
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
 
 {% include bib_search.liquid %}
 
 <div class="publications">
-
-{% bibliography %}
-
+  {% bibliography %}
 </div>
