@@ -1,7 +1,8 @@
 ---
 layout: page
-title: news
+title: NEWS
 permalink: /news/
+body_class: academic-page news-page
 ---
 
 {% include news.liquid %}

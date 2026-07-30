@@ -145,54 +145,6 @@ body.about-home {
     font-size: 0.73rem;
     line-height: 1.45;
   }
-
-  .about-news {
-    .table-responsive {
-      overflow: visible;
-    }
-
-    .table {
-      width: 100%;
-      margin: 0;
-      font-size: 0.73rem;
-      table-layout: fixed;
-
-      th,
-      td,
-      time,
-      a {
-        font-family: inherit;
-        font-size: inherit;
-        line-height: 1.48;
-      }
-
-      th,
-      td {
-        padding: 0.3rem 0;
-        border: 0;
-        vertical-align: top;
-      }
-
-      .news-date {
-        width: 21%;
-        padding-right: 1rem;
-        color: var(--academic-muted-color);
-        font-weight: 400;
-        white-space: nowrap;
-      }
-
-      .news-content {
-        color: var(--academic-text-color);
-        font-weight: 400;
-      }
-
-      p {
-        margin: 0;
-        font-size: inherit;
-        line-height: inherit;
-      }
-    }
-  }
 }
 
 html[data-theme="dark"] body.about-home .about-internship .about-entry__media img {
@@ -235,12 +187,6 @@ html[data-theme="dark"] body.about-home .about-internship .about-entry__media im
     .about-entry__period {
       display: block;
       margin-top: 0.08rem;
-    }
-
-    .about-news .table .news-date {
-      width: 29%;
-      padding-right: 0.65rem;
-      white-space: normal;
     }
   }
 }

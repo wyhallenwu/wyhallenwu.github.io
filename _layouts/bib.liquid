@@ -1,6 +1,20 @@
 ---
 ---
-<div class="publication-entry{% if site.enable_publication_thumbnails %} publication-entry--with-media{% endif %}">
+{%- comment -%}
+  Highlight entries the site owner leads: lead-authored work and tech reports.
+{%- endcomment -%}
+{%- assign lead_author = entry.author_array | first -%}
+{%- assign lead_author_last = lead_author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
+{%- assign highlight_entry = false -%}
+{%- if site.scholar.last_name contains lead_author_last and site.scholar.first_name contains lead_author.first -%}
+  {%- assign highlight_entry = true -%}
+{%- endif -%}
+{%- if entry.abbr == 'Tech Report' -%}
+  {%- assign highlight_entry = true -%}
+{%- endif -%}
+<div
+  class="publication-entry{% if site.enable_publication_thumbnails %} publication-entry--with-media{% endif %}{% if highlight_entry %} publication-entry--highlight{% endif %}"
+>
   {% if site.enable_publication_thumbnails %}
     <div class="publication-media">
       {%- if entry.abbr -%}
@@ -123,6 +137,9 @@
         >
           {{- more_authors_hide -}}
         </span>
+      {% endif %}
+      {% if entry.author_note %}
+        <span class="author-note">— {{ entry.author_note }}</span>
       {% endif %}
       {% if entry.annotation %}
         <i
@@ -346,7 +363,7 @@
       <div class="bibtex hidden">
         {% highlight bibtex %}
         {{- entry.bibtex | hideCustomBibtex -}}
-      {% endhighlight %}
+        {% endhighlight %}
       </div>
     {% endif %}
 

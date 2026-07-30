@@ -9,6 +9,8 @@ body.academic-page {
   --publication-media-border: rgba(49, 95, 125, 0.18);
   --publication-rule-color: rgba(49, 95, 125, 0.18);
   --publication-title-color: #606060;
+  --publication-highlight-bg: rgba(49, 95, 125, 0.055);
+  --publication-highlight-accent: rgba(49, 95, 125, 0.75);
 
   .publications {
     margin-top: 0;
@@ -121,6 +123,13 @@ body.academic-page {
           font-weight: 400;
         }
 
+        .author-note {
+          color: var(--academic-muted-color);
+          font-size: 0.7rem;
+          font-style: italic;
+          font-weight: 400;
+        }
+
         > em {
           border-bottom: 0;
           color: var(--academic-accent-color);
@@ -171,6 +180,17 @@ body.academic-page {
  *****************************/
 
 body.publications-page {
+  // Lead-authored work and tech reports: accent rule + faint tint, with the
+  // extra inset pulled back so the media column stays aligned with the rest.
+  // Index only — the about page's selected list stays unhighlighted.
+  .publications .publication-entry--highlight {
+    margin-right: -10px;
+    margin-left: -13px;
+    padding: 0.45rem 10px;
+    border-left: 3px solid var(--publication-highlight-accent);
+    background-color: var(--publication-highlight-bg);
+  }
+
   .post-header {
     margin-bottom: 0.9rem;
 
@@ -216,6 +236,8 @@ html[data-theme="dark"] body.academic-page {
   --publication-media-border: rgba(142, 187, 210, 0.28);
   --publication-rule-color: rgba(142, 187, 210, 0.24);
   --publication-title-color: #c8c8c8;
+  --publication-highlight-bg: rgba(142, 187, 210, 0.08);
+  --publication-highlight-accent: rgba(142, 187, 210, 0.6);
 
   .bibsearch-form-input {
     border-color: var(--global-divider-color);

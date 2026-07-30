@@ -50,4 +50,4 @@ internship:
   description: Working on autoregressive distillation for the Orbis model.
 ---
 
-I’m a PhD student in the School of Computing at the Korea Advanced Institute of Science & Technology (KAIST). I work with my colleagues at the Collaborative Distributed Systems and Networks Lab under the supervision of [Prof. Dongman Lee](https://cds.kaist.ac.kr/people/dongmanlee/). My research interests lie in building efficient and real-time interactive video world models.
+I’m a PhD student in the School of Computing at the Korea Advanced Institute of Science & Technology (KAIST). I work with my colleagues at the Collaborative Distributed Systems and Networks Lab under the supervision of [Prof. Dongman Lee](https://cds.kaist.ac.kr/people/dongmanlee/). I completed my undergraduate studies at Shanghai University, where I was advised by [Prof. Chenhong Cao](https://scholar.google.com/citations?user=pDxYvJwAAAAJ&hl=en). My research interests lie in building efficient and real-time interactive video world models.
