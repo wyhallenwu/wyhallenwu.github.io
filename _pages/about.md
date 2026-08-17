@@ -45,7 +45,7 @@ education:
 internship:
   company: Visko AI
   company_url: https://visko.ai/
-  logo: assets/img/experience/visko.svg
+  logo: assets/img/experience/visko.png
   period: Dec 2025 — Present
   description: Working on autoregressive distillation for the Orbis model.
 ---
