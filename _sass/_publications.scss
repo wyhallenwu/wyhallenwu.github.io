@@ -169,6 +169,24 @@ body.academic-page {
             color: var(--academic-accent-color);
             text-decoration: none;
           }
+
+          .publication-link-icon {
+            display: inline-block;
+            width: 1.05em;
+            margin-right: 0.28em;
+            font-size: 1.05em;
+            line-height: 1;
+            text-align: center;
+            vertical-align: -0.06em;
+
+            // Keep brand icons stable even when PurgeCSS trims grouped
+            // Font Awesome utility selectors during deployment.
+            &.fa-brands {
+              font-family: "Font Awesome 6 Brands";
+              font-style: normal;
+              font-weight: 400;
+            }
+          }
         }
       }
     }
